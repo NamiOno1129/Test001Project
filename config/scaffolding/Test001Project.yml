@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/NamiOno1129
   gitUsername: NamiOno1129
   gitBranch: main
+services:
+- serviceName: project.test001.integrations:flow2
+  packages:
+  - name: Test001Project
+    version: "1.0"
+- serviceName: pub.io:readAsString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
